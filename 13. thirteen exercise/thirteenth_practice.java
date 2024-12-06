@@ -21,7 +21,7 @@ public class thirteenth_practice {
         int count = 0; 
         while (count < intArray.length) {
             int number = random.nextInt(10) + 1;
-            duplicate = false; // 중복 체크 초기화
+            duplicate = false; // 중복 체크 초기화 ( 중복 되면 true, 중복되지 않으면 false)
             for (int i = 0; i < count; i++) {
                 // 중복 값이 존재하면 배열에 삽입을 못하게 함
                 if (intArray[i] == number) {
